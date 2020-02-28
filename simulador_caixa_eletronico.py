@@ -16,7 +16,7 @@ while valor>0:
         if valor == 0:
             break
     if valor//20 > 0:
-        notas_20 = valor//50
+        notas_20 = valor//20
         valor -= notas_20*20
         if valor == 0:
             break
