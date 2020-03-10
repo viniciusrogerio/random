@@ -1,0 +1,12 @@
+---
+title: "Distribuição normal"
+output: html_notebook
+---
+
+```{r echo=FALSE}
+normal = rnorm(10000,0,1)
+hist(normal)
+```
+
+## Medidas-resumo da distribuição:
+#### Esta distribuição tem média `r mean(normal)` e desvio-padrão `r sd(normal)`. 
